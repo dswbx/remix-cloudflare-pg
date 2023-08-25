@@ -69,5 +69,5 @@ wrangler pages dev --compatibility-date=2023-06-21 --node-compat ./public
 
 It seems to be a build problem, as when you run wrangler dev command directly, the server starts (but not with the new code obviously):
 ```
-wrangler pages dev --local --compatibility-date=2023-06-21 --node-compat ./public
+wrangler pages dev --compatibility-date=2023-06-21 --node-compat ./public
 ```
